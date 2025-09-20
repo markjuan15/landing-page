@@ -11,7 +11,7 @@ export default function MainLayout({ children }: Iprops) {
             <Navbar />
             <div className="flex w-full h-full overflow-hidden">
                 <div className="w-full relative">
-                    <div className="bg-white h-full overflow-auto no-scrollbar">
+                    <div className="bg-white h-full overflow-auto no-scrollbar scroll-smooth snap-y snap-always">
                         {children}
                     </div>
                 </div>

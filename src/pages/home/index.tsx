@@ -4,22 +4,23 @@ import Registration from "../registration";
 import License from "../license";
 import LTOOffice from "../ltoOffice";
 import Modal from "../../modal";
-import { useModalStates } from "../../global";
 import About from "../about";
+import OurActivities from "../activities";
+import ActivityModal from "../activities/components/modal";
 
 export default function Home() {
 
-    const { modalState } = useModalStates()
-
     return (
         <>
-            <Modal state={modalState} />
+            <Modal />
+            <ActivityModal />
             <MainLayout>
                 <div className="flex flex-col">
                     <LTOOffice />
                     <AgencyDetails />
                     <Registration />
                     <License />
+                    <OurActivities />
                     <About />
                 </div>
             </MainLayout>

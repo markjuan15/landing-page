@@ -8,8 +8,11 @@ interface TabState {
 
 interface ModalState {
     modalState: boolean,
+    indexState: boolean,
     modalData: any,
+    indexModalData: any,
     toggleModalState: (state: boolean) => void,
+    toggleIndexState: (state: boolean) => void,
 }
 
 interface Theme {
@@ -31,8 +34,11 @@ export const useModalStates = create<ModalState>()(
     devtools(
         (set) => ({
             modalState: false,
+            indexState: false,
             modalData: null,
+            indexModalData: null,
             toggleModalState: (state) => set({ modalState: !state }),
+            toggleIndexState: (state) => set({ indexState: !state }),
         }),
         { name: 'modalStates' },
     ),

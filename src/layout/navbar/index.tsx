@@ -12,7 +12,7 @@ export default function Navbar() {
         { label: "Registration", link: "#registration" },
         { label: "License", link: "#license" },
         { label: "LETAS", link: "#4" },
-        { label: "Our Activities", link: "#5" },
+        { label: "Our Activities", link: "#our-activities" },
         { label: "About Us", link: "#about" },
     ]
 

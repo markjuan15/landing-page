@@ -32,6 +32,19 @@ import one15 from "../../assets/license/15.avif"
 import one16 from "../../assets/license/16.avif"
 import one17 from "../../assets/license/17.avif"
 
+import act1 from "../../assets/ourActivities/2025/1.png"
+import act2 from "../../assets/ourActivities/2025/2.png"
+import act3 from "../../assets/ourActivities/2025/3.png"
+import act4 from "../../assets/ourActivities/2025/4.png"
+import act5 from "../../assets/ourActivities/2025/5.png"
+import act6 from "../../assets/ourActivities/2025/6.png"
+import act7 from "../../assets/ourActivities/2025/7.png"
+import act8 from "../../assets/ourActivities/2025/8.png"
+import act9 from "../../assets/ourActivities/2025/9.png"
+import act10 from "../../assets/ourActivities/2025/10.png"
+import act11 from "../../assets/ourActivities/2025/11.png"
+import act12 from "../../assets/ourActivities/2025/12.png"
+
 
 
 
@@ -73,4 +86,24 @@ export const license = [
     { label: "Conversion of foreign driver's license to philippine driver's license", data: one15 },
     { label: "License certification", data: one16 },
     { label: "Valid government issued identification card", data: one17 },
+]
+
+export const activities = [
+    { "2024": [] },
+    {
+        "2025": [
+            { "image": act1 },
+            { "image": act2 },
+            { "image": act3 },
+            { "image": act4 },
+            { "image": act5 },
+            { "image": act6 },
+            { "image": act7 },
+            { "image": act8 },
+            { "image": act9 },
+            { "image": act10 },
+            { "image": act11 },
+            { "image": act12 },
+        ]
+    },
 ]

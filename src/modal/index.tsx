@@ -50,7 +50,7 @@ export function IndexModal({ children }: Iprops) {
                 <div className="w-screen h-screen overflow-auto p-4 no-scrollbar">
                     {children}
                 </div>
-                <AiFillCloseCircle onClick={() => toggleIndexState(indexState)} className="text-4xl text-white top-2 right-2 absolute cursor-pointer invisible lg:visible" />
+                <AiFillCloseCircle onClick={() => toggleIndexState(indexState)} className="text-4xl text-white top-2 right-2 absolute cursor-pointer" />
             </motion.div>
         </motion.div>
     ) : null

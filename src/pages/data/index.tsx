@@ -45,6 +45,32 @@ import act10 from "../../assets/ourActivities/2025/10.png"
 import act11 from "../../assets/ourActivities/2025/11.png"
 import act12 from "../../assets/ourActivities/2025/12.png"
 
+import activity1 from "../../assets/ourActivities/2024/1.webp"
+import activity2 from "../../assets/ourActivities/2024/2.webp"
+import activity3 from "../../assets/ourActivities/2024/3.webp"
+import activity4 from "../../assets/ourActivities/2024/4.webp"
+import activity5 from "../../assets/ourActivities/2024/5.webp"
+import activity6 from "../../assets/ourActivities/2024/6.webp"
+import activity7 from "../../assets/ourActivities/2024/7.webp"
+import activity8 from "../../assets/ourActivities/2024/8.webp"
+import activity9 from "../../assets/ourActivities/2024/9.webp"
+import activity10 from "../../assets/ourActivities/2024/10.webp"
+import activity11 from "../../assets/ourActivities/2024/11.webp"
+import activity12 from "../../assets/ourActivities/2024/12.webp"
+import activity13 from "../../assets/ourActivities/2024/13.webp"
+import activity14 from "../../assets/ourActivities/2024/14.webp"
+import activity15 from "../../assets/ourActivities/2024/15.webp"
+import activity16 from "../../assets/ourActivities/2024/16.webp"
+import activity17 from "../../assets/ourActivities/2024/17.webp"
+import activity18 from "../../assets/ourActivities/2024/18.webp"
+import activity19 from "../../assets/ourActivities/2024/19.webp"
+import activity20 from "../../assets/ourActivities/2024/20.webp"
+import activity21 from "../../assets/ourActivities/2024/21.webp"
+import activity22 from "../../assets/ourActivities/2024/22.webp"
+import activity23 from "../../assets/ourActivities/2024/23.webp"
+import activity24 from "../../assets/ourActivities/2024/24.webp"
+import activity25 from "../../assets/ourActivities/2024/25.webp"
+
 
 
 
@@ -89,7 +115,35 @@ export const license = [
 ]
 
 export const activities = [
-    { "2024": [] },
+    {
+        "2024": [
+            { "image": activity1 },
+            { "image": activity2 },
+            { "image": activity3 },
+            { "image": activity4 },
+            { "image": activity5 },
+            { "image": activity6 },
+            { "image": activity7 },
+            { "image": activity8 },
+            { "image": activity9 },
+            { "image": activity10 },
+            { "image": activity11 },
+            { "image": activity12 },
+            { "image": activity13 },
+            { "image": activity14 },
+            { "image": activity15 },
+            { "image": activity16 },
+            { "image": activity17 },
+            { "image": activity18 },
+            { "image": activity19 },
+            { "image": activity20 },
+            { "image": activity21 },
+            { "image": activity22 },
+            { "image": activity23 },
+            { "image": activity24 },
+            { "image": activity25 },
+        ]
+    },
     {
         "2025": [
             { "image": act1 },

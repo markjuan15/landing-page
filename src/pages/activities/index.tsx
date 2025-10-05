@@ -27,18 +27,17 @@ export default function OurActivities() {
                     }} className="flex flex-col items-start justify-center leading-none">
                     <span className="text-white uppercase font-bold text-[3rem] lg:text-[6rem]">Our Activities</span>
                 </motion.div>
-                <motion.div
-                    initial={{ scale: 0 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    transition={{
-                        duration: 0.4,
-                        scale: { type: "spring", visualDuration: 0.4, bounce: 0.3 },
-                    }} className="grid grid-cols-1 lg:grid-cols-4 gap-10 w-full">
+                <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 w-full">
                     {filteredActivities.map((activity, i) => {
                         const [key, value] = Object.entries(activity)[0];
-
                         return (
-                            <div key={i} onClick={() => handleData(value)} className="overflow-hidden rounded-md cursor-pointer">
+                            <motion.div
+                                initial={{ scale: 0 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                transition={{
+                                    duration: 0.4,
+                                    scale: { type: "spring", visualDuration: 0.4, bounce: 0.3 },
+                                }} key={i} onClick={() => handleData(value)} className="overflow-hidden rounded-md cursor-pointer">
                                 <div className="relative group">
                                     <div className="absolute flex items-center justify-center h-[2rem] bg-white opacity-60 w-full">
                                         <span className="font-semibold">{key.toUpperCase()}</span>
@@ -46,10 +45,10 @@ export default function OurActivities() {
                                     <img src={value[0].image} alt={`${key} thumbnail`} className="w-full" />
                                     <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-30 transition-all duration-300" />
                                 </div>
-                            </div>
+                            </motion.div>
                         );
                     })}
-                </motion.div>
+                </div>
             </div>
         </motion.div>
     )

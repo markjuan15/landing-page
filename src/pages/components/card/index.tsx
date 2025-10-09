@@ -20,8 +20,8 @@ export default function Card({ data, label }: Iprops) {
         label.replace(/\b([a-zA-Z]+(?:'s)?)\b/g, (match) => {
             const lower = match.toLowerCase();
 
-            if (lower === "npdl" || lower === "pdl") return lower.toUpperCase(); // NPDL, PDL
-            if (["or", "in", "and", "of", "to", "from"].includes(lower)) return lower; // connectors lowercase
+            if (lower === "npdl" || lower === "pdl") return lower.toUpperCase();
+            if (["or", "in", "and", "of", "to", "from"].includes(lower)) return lower;
 
             if (lower.endsWith("'s")) {
                 const base = lower.slice(0, -2);

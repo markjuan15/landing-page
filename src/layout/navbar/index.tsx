@@ -11,7 +11,7 @@ export default function Navbar() {
         { label: "Agency Details", link: "#agency-details" },
         { label: "Registration", link: "#registration" },
         { label: "License", link: "#license" },
-        { label: "LETAS", link: "#4" },
+        { label: "LETAS", link: "#letas" },
         { label: "Our Activities", link: "#our-activities" },
         { label: "About Us", link: "#about" },
     ]

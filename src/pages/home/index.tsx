@@ -7,6 +7,7 @@ import Modal from "../../modal";
 import About from "../about";
 import OurActivities from "../activities";
 import ActivityModal from "../activities/components/modal";
+import Letas from "../letas";
 
 export default function Home() {
 
@@ -20,6 +21,7 @@ export default function Home() {
                     <AgencyDetails />
                     <Registration />
                     <License />
+                    <Letas />
                     <OurActivities />
                     <About />
                 </div>

@@ -8,6 +8,7 @@ import About from "../about";
 import OurActivities from "../activities";
 import ActivityModal from "../activities/components/modal";
 import Letas from "../letas";
+import OrgChart from "../orgChart";
 
 export default function Home() {
 
@@ -23,6 +24,7 @@ export default function Home() {
                     <License />
                     <Letas />
                     <OurActivities />
+                    <OrgChart />
                     <About />
                 </div>
             </MainLayout>

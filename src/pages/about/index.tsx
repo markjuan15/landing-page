@@ -10,9 +10,9 @@ export default function About() {
     return (
         <motion.div viewport={{ amount: 0.8 }} onViewportEnter={(entry: any) => toggleTabState(parseInt(entry.target.dataset.value))} id="about" data-value={7} className="h-[calc(100vh-2.8rem)] snap-start snap-always">
             <div className="flex flex-col items-center w-full h-full gap-[2rem] overflow-auto p-[2rem] no-scrollbar">
-                <div className="flex items-center justify-center w-full h-full text-white gap-4">
-                    <img src={bg} alt="" className="w-[36.4rem] rounded-md" />
-                    <div className="flex flex-col w-full h-full gap-4 overflow-auto no-scrollbar">
+                <div className="flex flex-col lg:flex-row items-center justify-center w-full text-white gap-4">
+                    <img src={bg} alt="" className="w-full lg:w-[36.4rem] rounded-md" />
+                    <div className="flex flex-col w-full h-[34rem] gap-4 overflow-auto no-scrollbar">
                         <div className="flex flex-col gap-4">
                             <span className="uppercase text-[3rem] font-bold leading-7">PREFACE</span>
                             <div className="flex flex-col w-full h-full gap-4">

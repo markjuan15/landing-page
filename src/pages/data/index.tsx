@@ -31,6 +31,11 @@ import one14 from "../../assets/license/14.avif"
 import one15 from "../../assets/license/15.avif"
 import one16 from "../../assets/license/16.avif"
 import one17 from "../../assets/license/17.avif"
+import one18 from "../../assets/license/18.avif"
+import one19 from "../../assets/license/19.avif"
+import one20 from "../../assets/license/20.avif"
+import one21 from "../../assets/license/21.avif"
+import one22 from "../../assets/license/22.avif"
 
 import act1 from "../../assets/ourActivities/2025/1.png"
 import act2 from "../../assets/ourActivities/2025/2.png"
@@ -95,23 +100,28 @@ export const registration = [
 ]
 
 export const license = [
-    { label: "Student permit", data: one1 },
-    { label: "Renewal of student permit", data: one2 },
-    { label: "New driver's license (non-professional)", data: one3 },
+    { label: "Student driver's permit", data: one1 },
+    { label: "New driver's license (non prof)", data: one2 },
+    { label: "Renewal of student permit", data: one3 },
     { label: "Conductor's license", data: one4 },
-    { label: "Renewal of driver's license (plain or advance)/conductor's license/dormant", data: one5 },
+    { label: "Renewal of driver's license", data: one5 },
     { label: "Renewal of driver's license of filipinos living/working abroad", data: one6 },
     { label: "Revision of records (change name)", data: one7 },
     { label: "Revision of records (correction of name/birthdate/gender)", data: one8 },
     { label: "Revision of records (change civil status)", data: one9 },
     { label: "Revision of records (change in citizenship)", data: one10 },
     { label: "Revision of records (change address)", data: one11 },
-    { label: "Duplicate driver's/conductor's license/student driver's permit", data: one12 },
-    { label: "Additional driver's license code/s", data: one13 },
-    { label: "Change classification from npdl to pdl with same driver's license code", data: one14 },
-    { label: "Conversion of foreign driver's license to philippine driver's license", data: one15 },
-    { label: "License certification", data: one16 },
-    { label: "Valid government issued identification card", data: one17 },
+    { label: "Duplicate driver's/conductor's license with examination [Expired for more than two (2) years)] And/Or with ten (10) or more but less than forty (40) demerit points", data: one12 },
+    { label: "Duplicate driver's/conductor's license/student driver's permit", data: one13 },
+    { label: "Additional driver's license code/s", data: one14 },
+    { label: "Change classification from npdl to pdl with same driver's license code", data: one15 },
+    { label: "Conversion of foreign driver's license to philippine driver's license (valid foreign driver’s license and renewal of expired Philippine driver’s license with a valid foreign driver’s license)", data: one16 },
+    { label: "Conversion of foreign driver's license to philippine driver's license (expired foreign driver’s license and/or from countries operating right hand drive vehicles)", data: one17 },
+    { label: "Change classification from pdl to npdl code (Change clutch type, dropping of dl code/s and/or updating of driving condition/s dropping of codes and/or updating driving condition)", data: one18 },
+    { label: "Enhancement of driver's license", data: one19 },
+    { label: "License history", data: one20 },
+    { label: "License certification", data: one21 },
+    { label: "Valid government issued identification card", data: one22 },
 ]
 
 export const activities = [

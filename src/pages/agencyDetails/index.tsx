@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { useTabStates } from "../../global";
 import Card from "../components/card";
-import { agencyDetails } from "../data";
+import { agencyDetails } from "../../data";
 
 export default function AgencyDetails() {
     const { toggleTabState } = useTabStates()

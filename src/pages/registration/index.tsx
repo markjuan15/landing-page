@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { useTabStates } from "../../global";
 import Card from "../components/card";
-import { registration } from "../data";
+import { registration } from "../../data";
 
 export default function Registration() {
     const { toggleTabState } = useTabStates()

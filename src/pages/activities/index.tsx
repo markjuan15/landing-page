@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { useModalStates, useTabStates } from "../../global";
-import { activities } from "../data";
+import { activities } from "../../data";
 
 export default function OurActivities() {
     const { toggleTabState } = useTabStates()

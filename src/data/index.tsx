@@ -13,33 +13,33 @@ import seven from "../assets/registration/7.avif"
 import eight from "../assets/registration/8.avif"
 import nine from "../assets/registration/9.avif"
 import ten from "../assets/registration/10.avif"
-// import r11 from "../assets/registration/11.avif"
-// import r12 from "../assets/registration/12.avif"
-// import r13 from "../assets/registration/13.avif"
-// import r14 from "../assets/registration/14.avif"
-// import r15 from "../assets/registration/15.avif"
-// import r16 from "../assets/registration/16.avif"
-// import r17 from "../assets/registration/17.avif"
-// import r18 from "../assets/registration/18.avif"
-// import r19 from "../assets/registration/19.avif"
-// import r20 from "../assets/registration/20.avif"
-// import r21 from "../assets/registration/21.avif"
-// import r22 from "../assets/registration/22.avif"
-// import r23 from "../assets/registration/23.avif"
-// import r24 from "../assets/registration/24.avif"
-// import r25 from "../assets/registration/25.avif"
-// import r26 from "../assets/registration/26.avif"
-// import r27 from "../assets/registration/27.avif"
-// import r28 from "../assets/registration/28.avif"
-// import r29 from "../assets/registration/29.avif"
-// import r30 from "../assets/registration/30.avif"
-// import r31 from "../assets/registration/31.avif"
-// import r32 from "../assets/registration/32.avif"
-// import r33 from "../assets/registration/33.avif"
-// import r34 from "../assets/registration/34.avif"
-// import r35 from "../assets/registration/35.avif"
-// import r36 from "../assets/registration/36.avif"
-// import r37 from "../assets/registration/37.avif"
+import r11 from "../assets/registration/11.avif"
+import r12 from "../assets/registration/12.avif"
+import r13 from "../assets/registration/13.avif"
+import r14 from "../assets/registration/14.avif"
+import r15 from "../assets/registration/15.avif"
+import r16 from "../assets/registration/16.avif"
+import r17 from "../assets/registration/17.avif"
+import r18 from "../assets/registration/18.avif"
+import r19 from "../assets/registration/19.avif"
+import r20 from "../assets/registration/20.avif"
+import r21 from "../assets/registration/21.avif"
+import r22 from "../assets/registration/22.avif"
+import r23 from "../assets/registration/23.avif"
+import r24 from "../assets/registration/24.avif"
+import r25 from "../assets/registration/25.avif"
+import r26 from "../assets/registration/26.avif"
+import r27 from "../assets/registration/27.avif"
+import r28 from "../assets/registration/28.avif"
+import r29 from "../assets/registration/29.avif"
+import r30 from "../assets/registration/30.avif"
+import r31 from "../assets/registration/31.avif"
+import r32 from "../assets/registration/32.avif"
+import r33 from "../assets/registration/33.avif"
+import r34 from "../assets/registration/34.avif"
+import r35 from "../assets/registration/35.avif"
+import r36 from "../assets/registration/36.avif"
+import r37 from "../assets/registration/37.avif"
 
 import one1 from "../assets/license/1.avif"
 import one2 from "../assets/license/2.avif"
@@ -114,43 +114,43 @@ export const agencyDetails = [
 ]
 
 export const registration = [
-    { label: "Renewal of MV registration", data: one },
-    { label: "Transfer of ownership", data: two },
-    { label: "Storage of motor Vehicle", data: three },
-    { label: "Change classification private to for hire", data: four },
-    { label: "Change classification for hire to private", data: five },
-    { label: "Change classification private to government", data: six },
-    { label: "Change body/body design/engine/color", data: seven },
-    { label: "Duplicate certification of registration/certificate of registration-encumbered", data: eight },
-    { label: "Annotation and cancellation of mortgage", data: nine },
-    { label: "Duplicate plate", data: ten },
-    // { label: "Duplicate plate", data: r11 },
-    // { label: "Duplicate plate", data: r12 },
-    // { label: "Duplicate plate", data: r13 },
-    // { label: "Duplicate plate", data: r14 },
-    // { label: "Duplicate plate", data: r15 },
-    // { label: "Duplicate plate", data: r16 },
-    // { label: "Duplicate plate", data: r17 },
-    // { label: "Duplicate plate", data: r18 },
-    // { label: "Duplicate plate", data: r19 },
-    // { label: "Duplicate plate", data: r20 },
-    // { label: "Duplicate plate", data: r21 },
-    // { label: "Duplicate plate", data: r22 },
-    // { label: "Duplicate plate", data: r23 },
-    // { label: "Duplicate plate", data: r24 },
-    // { label: "Duplicate plate", data: r25 },
-    // { label: "Duplicate plate", data: r26 },
-    // { label: "Duplicate plate", data: r27 },
-    // { label: "Duplicate plate", data: r28 },
-    // { label: "Duplicate plate", data: r29 },
-    // { label: "Duplicate plate", data: r30 },
-    // { label: "Duplicate plate", data: r31 },
-    // { label: "Duplicate plate", data: r32 },
-    // { label: "Duplicate plate", data: r33 },
-    // { label: "Duplicate plate", data: r34 },
-    // { label: "Duplicate plate", data: r35 },
-    // { label: "Duplicate plate", data: r36 },
-    // { label: "Duplicate plate", data: r37 },
+    { label: "Sales reporting and initial registration of motor vehicles", data: one },
+    { label: "RENEWAL OF MOTOR VEHICLE (MV) REGISTRATION", data: two },
+    { label: "For hire", data: three },
+    { label: "Reactivation of Storage", data: four },
+    { label: "Formula / Schedule of Fees", data: five },
+    { label: "Formula / Schedule of Fees", data: six },
+    { label: "Formula / Schedule of Fees", data: seven },
+    { label: "MISCELLANEOUS REGISTRATION TRANSACTIONS - TRANSFER OF OWNERSHIP", data: eight },
+    { label: "MISCELLANEOUS REGISTRATION TRANSACTIONS - TRANSFER OF OWNERSHIP", data: nine },
+    { label: "MISCELLANEOUS REGISTRATION TRANSACTIONS - TRANSFER OF OWNERSHIP", data: ten },
+    { label: "Motor Vehicles acquired through a Sheriff’s Certificate of Sale issued under an Extra-Judicial Foreclosure Sale", data: r11 },
+    { label: "Motor Vehicles acquired through a Sheriff’s Certificate of Sale through a Judicial Foreclosure Sale", data: r12 },
+    { label: "Motor Vehicles acquired through Sheriff’s Certificate of Sale Pursuant to a Money Judgment which has become final and executory", data: r13 },
+    { label: "Private Motor Vehicles / Motor Cycles", data: r14 },
+    { label: "Motor Vehicles acquired through public bidding conducted by government office/entity", data: r15 },
+    { label: "Motor Vehicles acquired at public auction before a notary public by virtue of a mechanic’s lien", data: r16 },
+    { label: "Motor Vehicles acquired through Extra-Judicial Settlement of Estate of Deceased Person", data: r17 },
+    { label: "Motor Vehicles acquired through Judicial Settlement of Estate of Deceased Person", data: r18 },
+    { label: "Motor Vehicles acquired through Public Bidding conducted by Land Transportation Office under Presidential Decree No. 1729", data: r19 },
+    { label: "Government -owned vehicles to another government office", data: r20 },
+    { label: "Miscellaneous Registration Transactions - Annotation of Mortgage and other liens or Encumbrances", data: r21 },
+    { label: "Miscellaneous Registration Transactions - Annotation of Mortgage and other liens or Encumbrances", data: r22 },
+    { label: "Cancellation of Mortgage when the financing company (mortgagee) no longer exists and the release Mortgage Contract is missing", data: r23 },
+    { label: "MISCELLANEOUS REGISTRATION TRANSACTIONS - CHANGE CLASSIFICATION", data: r24 },
+    { label: "For Hire to Private", data: r25 },
+    { label: "Private to Government", data: r26 },
+    { label: "Private to Government", data: r27 },
+    { label: "Government to Private", data: r28 },
+    { label: "MISCELLANEOUS REGISTRATION TRANSACTIONS - CHANGE BODY/BODY DESIGN/ENGINE/COLOR", data: r29 },
+    { label: "MISCELLANEOUS REGISTRATION TRANSACTIONS - CHANGE BODY/BODY DESIGN/ENGINE/COLOR", data: r30 },
+    { label: "MISCELLANEOUS REGISTRATION TRANSACTIONS - CHANGE BODY/BODY DESIGN/ENGINE/COLOR", data: r31 },
+    { label: "MISCELLANEOUS REGISTRATION TRANSACTIONS - DUPLICATE CERTIFICATE OF REGISTRATION / CERTIFICATE OF REGISTRATION - ENCUMBERED", data: r32 },
+    { label: "MOTOR VEHICLE INSPECTION", data: r33 },
+    { label: "STORAGE OF MOTOR VEHICLE", data: r34 },
+    { label: "REQUEST FOR MOTOR VEHICLE VERIFICATION", data: r35 },
+    { label: "REQUEST FOR DATA TAKE-ON (thru email)", data: r36 },
+    { label: "REQUEST FOR DATA TAKE-ON (thru email)", data: r37 },
 ]
 
 export const license = [

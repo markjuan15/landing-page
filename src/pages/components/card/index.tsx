@@ -24,7 +24,8 @@ export default function Card({ data, label }: Iprops) {
                 lower === "npdl" ||
                 lower === "pdl" ||
                 lower === "non" ||
-                lower === "prof"
+                lower === "prof" ||
+                lower === "mv"
             ) return lower.toUpperCase();
             if (["or", "in", "and", "of", "to", "from"].includes(lower)) return lower;
 

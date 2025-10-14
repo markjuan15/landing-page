@@ -13,33 +13,33 @@ import seven from "../assets/registration/7.avif"
 import eight from "../assets/registration/8.avif"
 import nine from "../assets/registration/9.avif"
 import ten from "../assets/registration/10.avif"
-import r11 from "../assets/registration/11.avif"
-import r12 from "../assets/registration/12.avif"
-import r13 from "../assets/registration/13.avif"
-import r14 from "../assets/registration/14.avif"
-import r15 from "../assets/registration/15.avif"
-import r16 from "../assets/registration/16.avif"
-import r17 from "../assets/registration/17.avif"
-import r18 from "../assets/registration/18.avif"
-import r19 from "../assets/registration/19.avif"
-import r20 from "../assets/registration/20.avif"
-import r21 from "../assets/registration/21.avif"
-import r22 from "../assets/registration/22.avif"
-import r23 from "../assets/registration/23.avif"
-import r24 from "../assets/registration/24.avif"
-import r25 from "../assets/registration/25.avif"
-import r26 from "../assets/registration/26.avif"
-import r27 from "../assets/registration/27.avif"
-import r28 from "../assets/registration/28.avif"
-import r29 from "../assets/registration/29.avif"
-import r30 from "../assets/registration/30.avif"
-import r31 from "../assets/registration/31.avif"
-import r32 from "../assets/registration/32.avif"
-import r33 from "../assets/registration/33.avif"
-import r34 from "../assets/registration/34.avif"
-import r35 from "../assets/registration/35.avif"
-import r36 from "../assets/registration/36.avif"
-import r37 from "../assets/registration/37.avif"
+// import r11 from "../assets/registration/11.avif"
+// import r12 from "../assets/registration/12.avif"
+// import r13 from "../assets/registration/13.avif"
+// import r14 from "../assets/registration/14.avif"
+// import r15 from "../assets/registration/15.avif"
+// import r16 from "../assets/registration/16.avif"
+// import r17 from "../assets/registration/17.avif"
+// import r18 from "../assets/registration/18.avif"
+// import r19 from "../assets/registration/19.avif"
+// import r20 from "../assets/registration/20.avif"
+// import r21 from "../assets/registration/21.avif"
+// import r22 from "../assets/registration/22.avif"
+// import r23 from "../assets/registration/23.avif"
+// import r24 from "../assets/registration/24.avif"
+// import r25 from "../assets/registration/25.avif"
+// import r26 from "../assets/registration/26.avif"
+// import r27 from "../assets/registration/27.avif"
+// import r28 from "../assets/registration/28.avif"
+// import r29 from "../assets/registration/29.avif"
+// import r30 from "../assets/registration/30.avif"
+// import r31 from "../assets/registration/31.avif"
+// import r32 from "../assets/registration/32.avif"
+// import r33 from "../assets/registration/33.avif"
+// import r34 from "../assets/registration/34.avif"
+// import r35 from "../assets/registration/35.avif"
+// import r36 from "../assets/registration/36.avif"
+// import r37 from "../assets/registration/37.avif"
 
 import one1 from "../assets/license/1.avif"
 import one2 from "../assets/license/2.avif"
@@ -124,33 +124,33 @@ export const registration = [
     { label: "Duplicate certification of registration/certificate of registration-encumbered", data: eight },
     { label: "Annotation and cancellation of mortgage", data: nine },
     { label: "Duplicate plate", data: ten },
-    { label: "Duplicate plate", data: r11 },
-    { label: "Duplicate plate", data: r12 },
-    { label: "Duplicate plate", data: r13 },
-    { label: "Duplicate plate", data: r14 },
-    { label: "Duplicate plate", data: r15 },
-    { label: "Duplicate plate", data: r16 },
-    { label: "Duplicate plate", data: r17 },
-    { label: "Duplicate plate", data: r18 },
-    { label: "Duplicate plate", data: r19 },
-    { label: "Duplicate plate", data: r20 },
-    { label: "Duplicate plate", data: r21 },
-    { label: "Duplicate plate", data: r22 },
-    { label: "Duplicate plate", data: r23 },
-    { label: "Duplicate plate", data: r24 },
-    { label: "Duplicate plate", data: r25 },
-    { label: "Duplicate plate", data: r26 },
-    { label: "Duplicate plate", data: r27 },
-    { label: "Duplicate plate", data: r28 },
-    { label: "Duplicate plate", data: r29 },
-    { label: "Duplicate plate", data: r30 },
-    { label: "Duplicate plate", data: r31 },
-    { label: "Duplicate plate", data: r32 },
-    { label: "Duplicate plate", data: r33 },
-    { label: "Duplicate plate", data: r34 },
-    { label: "Duplicate plate", data: r35 },
-    { label: "Duplicate plate", data: r36 },
-    { label: "Duplicate plate", data: r37 },
+    // { label: "Duplicate plate", data: r11 },
+    // { label: "Duplicate plate", data: r12 },
+    // { label: "Duplicate plate", data: r13 },
+    // { label: "Duplicate plate", data: r14 },
+    // { label: "Duplicate plate", data: r15 },
+    // { label: "Duplicate plate", data: r16 },
+    // { label: "Duplicate plate", data: r17 },
+    // { label: "Duplicate plate", data: r18 },
+    // { label: "Duplicate plate", data: r19 },
+    // { label: "Duplicate plate", data: r20 },
+    // { label: "Duplicate plate", data: r21 },
+    // { label: "Duplicate plate", data: r22 },
+    // { label: "Duplicate plate", data: r23 },
+    // { label: "Duplicate plate", data: r24 },
+    // { label: "Duplicate plate", data: r25 },
+    // { label: "Duplicate plate", data: r26 },
+    // { label: "Duplicate plate", data: r27 },
+    // { label: "Duplicate plate", data: r28 },
+    // { label: "Duplicate plate", data: r29 },
+    // { label: "Duplicate plate", data: r30 },
+    // { label: "Duplicate plate", data: r31 },
+    // { label: "Duplicate plate", data: r32 },
+    // { label: "Duplicate plate", data: r33 },
+    // { label: "Duplicate plate", data: r34 },
+    // { label: "Duplicate plate", data: r35 },
+    // { label: "Duplicate plate", data: r36 },
+    // { label: "Duplicate plate", data: r37 },
 ]
 
 export const license = [

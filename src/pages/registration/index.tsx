@@ -3,11 +3,15 @@ import { useTabStates } from "../../global";
 import Card from "../components/card";
 import { registration } from "../../data";
 
-export default function Registration() {
+interface Iprops {
+    index?: number
+}
+
+export default function Registration({ index }: Iprops) {
     const { toggleTabState } = useTabStates()
 
     return (
-        <motion.div viewport={{ amount: 0.8 }} onViewportEnter={(entry: any) => toggleTabState(parseInt(entry.target.dataset.value))} id="registration" data-value={2} className="h-[calc(100vh-2.8rem)] snap-start snap-always">
+        <motion.div viewport={{ amount: 0.8 }} onViewportEnter={(entry: any) => toggleTabState(parseInt(entry.target.dataset.value))} id="registration" data-value={index} className="h-[calc(100vh-2.8rem)] snap-start snap-always">
             <div className="flex flex-col items-center w-full h-full gap-[2rem] overflow-auto p-[2rem] no-scrollbar">
                 <motion.div
                     initial={{ scale: 0 }}

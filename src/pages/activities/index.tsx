@@ -2,7 +2,11 @@ import { motion } from "motion/react";
 import { useModalStates, useTabStates } from "../../global";
 import { activities } from "../../data";
 
-export default function OurActivities() {
+interface Iprops {
+    index?: number
+}
+
+export default function OurActivities({ index }: Iprops) {
     const { toggleTabState } = useTabStates()
     const { indexState, toggleIndexState } = useModalStates()
 
@@ -16,7 +20,7 @@ export default function OurActivities() {
     }
 
     return (
-        <motion.div viewport={{ amount: 0.8 }} onViewportEnter={(entry: any) => toggleTabState(parseInt(entry.target.dataset.value))} id="our-activities" data-value={5} className="h-[calc(100vh-2.8rem)] snap-start snap-always">
+        <motion.div viewport={{ amount: 0.8 }} onViewportEnter={(entry: any) => toggleTabState(parseInt(entry.target.dataset.value))} id="our-activities" data-value={index} className="h-[calc(100vh-2.8rem)] snap-start snap-always">
             <div className="flex flex-col items-center w-full h-full gap-[2rem] overflow-auto p-[2rem] no-scrollbar">
                 <motion.div
                     initial={{ scale: 0 }}

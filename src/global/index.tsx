@@ -9,10 +9,13 @@ interface TabState {
 interface ModalState {
     modalState: boolean,
     indexState: boolean,
+    dirtectoryModalState: boolean,
     modalData: any,
+    directoryModalData: any,
     indexModalData: any,
     toggleModalState: (state: boolean) => void,
     toggleIndexState: (state: boolean) => void,
+    toggleDirtectoryModalState: (state: boolean) => void,
 }
 
 interface Theme {
@@ -34,11 +37,14 @@ export const useModalStates = create<ModalState>()(
     devtools(
         (set) => ({
             modalState: false,
+            dirtectoryModalState: false,
             indexState: false,
             modalData: null,
+            directoryModalData: null,
             indexModalData: null,
             toggleModalState: (state) => set({ modalState: !state }),
             toggleIndexState: (state) => set({ indexState: !state }),
+            toggleDirtectoryModalState: (state) => set({ dirtectoryModalState: !state }),
         }),
         { name: 'modalStates' },
     ),

@@ -3,12 +3,16 @@ import { useTabStates } from "../../global";
 import Card from "../components/card";
 import { agencyDetails } from "../../data";
 
-export default function AgencyDetails() {
+interface Iprops {
+    index?: number
+}
+
+export default function AgencyDetails({ index }: Iprops) {
     const { toggleTabState } = useTabStates()
 
     return (
         <>
-            <motion.div viewport={{ amount: 0.8 }} onViewportEnter={(entry: any) => toggleTabState(parseInt(entry.target.dataset.value))} id="agency-details" data-value={1} className="h-[calc(100vh-2.8rem)] snap-start snap-always">
+            <motion.div viewport={{ amount: 0.8 }} onViewportEnter={(entry: any) => toggleTabState(parseInt(entry.target.dataset.value))} id="agency-details" data-value={index} className="h-[calc(100vh-2.8rem)] snap-start snap-always">
                 <div className="flex flex-col lg:flex-row items-center lg:justify-center w-full h-full gap-[2rem] lg:gap-[3rem] overflow-auto p-[4rem] no-scrollbar">
                     <motion.div
                         initial={{ scale: 0 }}

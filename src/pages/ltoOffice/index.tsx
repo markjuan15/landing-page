@@ -6,11 +6,15 @@ import dotr from "../../assets/dotr.png"
 import bagongPilipinas from "../../assets/bagong-pilipinas.png"
 import bg from "../../assets/bg.jfif"
 
-export default function LTOOffice() {
+interface Iprops {
+    index?: number
+}
+
+export default function LTOOffice({ index }: Iprops) {
     const { toggleTabState } = useTabStates()
 
     return (
-        <motion.div viewport={{ amount: 0.8 }} onViewportEnter={(entry: any) => toggleTabState(parseInt(entry.target.dataset.value))} id="lto-bayombong" data-value={0} className="flex flex-col snap-start snap-always lg:items-center lg:justify-center md:items-center md:justify-center w-full lg:h-[calc(100vh-2.8rem)] md:h-[calc(100vh-2.8rem)] overflow-hidden gap-8 relative bg-[#5e5a5a]">
+        <motion.div viewport={{ amount: 0.8 }} onViewportEnter={(entry: any) => toggleTabState(parseInt(entry.target.dataset.value))} id="lto-bayombong" data-value={index} className="flex flex-col snap-start snap-always lg:items-center lg:justify-center md:items-center md:justify-center w-full lg:h-[calc(100vh-2.8rem)] md:h-[calc(100vh-2.8rem)] overflow-hidden gap-8 relative bg-[#5e5a5a]">
             <div className="flex flex-col lg:flex-row md:flex-row items-center justify-center w-full gap-[1rem] lg:gap-[3rem] md:gap-[3rem]">
                 <motion.img initial={{ scale: 0 }}
                     whileInView={{ opacity: 1, scale: 1 }}

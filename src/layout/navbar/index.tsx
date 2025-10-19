@@ -15,6 +15,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(true)
 
     const link = [
+        { label: "Directory", link: "#directory" },
         { label: "Agency Details", link: "#agency-details" },
         { label: "Registration", link: "#registration" },
         { label: "License", link: "#license" },

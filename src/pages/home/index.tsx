@@ -10,6 +10,7 @@ import ActivityModal from "../activities/components/modal";
 import Letas from "../letas";
 import OrgChart from "../orgChart";
 import Directory from "../directory";
+import LtoTracker from "../ltoTracker";
 
 export default function Home() {
 
@@ -28,7 +29,8 @@ export default function Home() {
                     <Letas index={5} />
                     <OurActivities index={6} />
                     <OrgChart index={7} />
-                    <About index={8} />
+                    <LtoTracker index={8} />
+                    <About index={9} />
                 </div>
             </MainLayout>
         </>

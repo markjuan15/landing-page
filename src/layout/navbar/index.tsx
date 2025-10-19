@@ -22,6 +22,7 @@ export default function Navbar() {
         { label: "LETAS", link: "#letas" },
         { label: "Our Activities", link: "#our-activities" },
         { label: "Org Chart", link: "#org-chart" },
+        { label: "LTO Tracker", link: "#lto-tracker" },
         { label: "About Us", link: "#about" },
     ]
 
